@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-<<<<<<< HEAD
 #define MIN_IDADE 9 //Define a idade mínima, 
                     //neste caso não é criado uma posição de memória para a constante, apenas substitui o valor no código fonte.
 int main(void)
@@ -25,17 +24,6 @@ int main(void)
     
     printf("Idade: %d\n", idade);
     printf("IMC: %.2f\n", imc);
-=======
-int main (){
-
-    int x; //numero inteiro
-    char n; //caracter
-    char s[100]; //String com 100 caracteres
-    float b; //numero real com precisão simples
-    double c; //numero real com precisão dupla
-
-    int a; // Na linguagem C, o valor falso é representado pelo número 0, enquanto o valor verdadeiro é representado por qualquer número diferente de 0.
->>>>>>> b675a0ebc37122f669c3de14fcea96a7514e23d5
 
     return 0;
 }
